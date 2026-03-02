@@ -1,7 +1,7 @@
 "use client"
 
 import { UserButton, useUser } from "@clerk/nextjs"
-import { Codesandbox, Menu, X, Handshake, FileCheck, FolderGit2 } from "lucide-react"
+import { Codesandbox, Menu, X, Handshake, FileCheck, FolderGit2, Home } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import React, { useEffect, useState } from "react"
@@ -22,14 +22,14 @@ const Navbar = () => {
 
   // 2. On construit la navigation dynamiquement selon le rôle
   const navLinks = [
-    ...baseNavLinks,
-    // Seuls les ADMINS voient les "Projets" et les "Validations"
     ...(role === "ADMIN"
       ? [
+          { href: "/dashboard", label: "Dashboard", icon: Home },
           { href: "/workspace", label: "Projets", icon: FolderGit2 },
           { href: "/validation", label: "Validations", icon: FileCheck },
         ]
       : []),
+    ...baseNavLinks,
     // Si vous voulez que le stagiaire voit SES projets mais pas l'onglet général, 
     // vous pouvez ajouter une condition spécifique ici.
   ]
