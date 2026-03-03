@@ -52,7 +52,8 @@ const TaskComponent: FC<TaskProps> = ({ task, index, email , onDelete }) => {
 
             <td>
                 <div className='text-xs text-gray-500 hidden md:flex'>
-                    {task.dueDate && new Date(task.dueDate).toLocaleDateString()}
+                    {/* CORRECTION : Ajout de 'fr-FR' pour uniformiser le format entre le Serveur et le Client */}
+                    {task.dueDate && new Date(task.dueDate).toLocaleDateString('fr-FR')}
                 </div>
             </td>
 
