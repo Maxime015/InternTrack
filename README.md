@@ -4,7 +4,7 @@
     <p>
         <strong>InterTrack</strong> est une application web Full-Stack conçue pour la <strong>gestion et le suivi des tâches et des projets assignés aux stagiaires</strong>.
         <br/><br/>
-        Développée avec <strong>Next.js</strong>,  <strong>Clerk</strong>, , <strong>DaisyUI</strong>, <strong>Tailwind CSS</strong> et <strong>PostgreSQL (Supabase)</strong>,
+        Développée avec <strong>Next.js</strong>,  <strong>Clerk</strong>, <strong>DaisyUI</strong>, <strong>Tailwind CSS</strong> et <strong>PostgreSQL (Supabase)</strong>,
         elle permet de gérer efficacement les projets, d’assigner des tâches, de suivre leur progression et d’administrer les comptes utilisateurs selon des rôles définis.
     </p>
 </div>
