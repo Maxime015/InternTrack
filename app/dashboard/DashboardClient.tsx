@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import type { DashboardStats } from "@/app/actions/dashboard";
 import type { RecentTaskItem, RecentProjectItem } from "@/app/actions/dashboard";
+import DashboardCharts from "./DashboardCharts";
 
 function formatDate(d: Date) {
   return new Date(d).toLocaleDateString("fr-FR", {
@@ -200,6 +201,8 @@ export default function DashboardClient({
             </p>
           </div>
         </div>
+
+        <DashboardCharts stats={stats} />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           {/* Dernières tâches */}
