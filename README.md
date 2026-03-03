@@ -36,7 +36,7 @@
 
 ## ![Application Screenshot](./public/screenshots/f.png)
 
-## ![Application Screenshot](./public/screenshots/g.png)
+## ![Application Screenshot](./public/screenshots/z.png)
 
 ## ![Application Screenshot](./public/screenshots/h.png)
 
