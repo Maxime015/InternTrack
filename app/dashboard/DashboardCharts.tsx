@@ -44,12 +44,12 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
       {
         data: [stats.tasksToDo, stats.tasksInProgress, stats.tasksDone],
         backgroundColor: [
-          "rgba(34, 197, 94, 0.8)",   // info / To Do
+          "rgba(239, 68, 68, 0.8)",   // error
           "rgba(234, 179, 8, 0.8)",    // warning / In Progress
           "rgba(22, 163, 74, 0.8)",    // success / Done
         ],
         borderColor: [
-          "rgb(34, 197, 94)",
+          "rgb(239, 68, 68)",
           "rgb(234, 179, 8)",
           "rgb(22, 163, 74)",
         ],
