@@ -73,7 +73,7 @@ const statCards: Array<{
     valueLabel: (n) => `${n} tâches`,
     subtitle: "Tâches au total",
     icon: ListTodo,
-    bgIcon: "bg-accent/20 text-accent",
+    bgIcon: "bg-emerald-500/20 text-emerald-600",
   },
   {
     key: "pendingValidations",
@@ -81,7 +81,7 @@ const statCards: Array<{
     valueLabel: (n) => `${n} demandes`,
     subtitle: "Validation de comptes",
     icon: Clock,
-    bgIcon: "bg-warning/20 text-warning",
+    bgIcon: "bg-purple-500/20 text-purple-600",
   },
 ];
 
