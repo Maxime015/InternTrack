@@ -81,7 +81,7 @@ const statCards: Array<{
     valueLabel: (n) => `${n} demandes`,
     subtitle: "Validation de comptes",
     icon: Clock,
-    bgIcon: "bg-purple-500/20 text-purple-600",
+    bgIcon: "bg-accent/40 text-accent",
   },
 ];
 
